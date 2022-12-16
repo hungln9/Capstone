@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: capstone
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: capstone
+  template:
+    metadata:
+      labels:
+        app: capstone
+    spec:
+      containers:
+      - name: capstone
+        image: thailx/flaskapp:1.0
+        ports:
+        - containerPort: 80
