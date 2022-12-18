@@ -37,7 +37,7 @@ jobs:
       - run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASS
       # - docker/check
-          # docker-username: $DOCKERHUB_LOGIN  # DOCKER_LOGIN is the default values, if it exists, it automatically would be used.
+          # docker-username: $DOCKERHUB_LOGIN  # DOCKER_LOGIN is the default values, if it exists, it automatically would be ussed.
           # docker-password: $DOCKERHUB_PASSWORD  # 
       - docker/build:
           image: lengochung1/flaskapp
