@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: capstone
-        image: thailx/flaskapp:1.0
+        image: lengochung1/flaskapp:1.0
         ports:
         - containerPort: 80
