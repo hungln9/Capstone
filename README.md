@@ -27,6 +27,6 @@ This is Dockerfile of application:
 - Using CircleCI Orbs to automate AWS tasks
 - Using region us-east-1
 
-## Load Balancers
+## Load Balancer
 http://a90e369f55ec94ea69dc6b8de35e4b8e-506090521.us-east-1.elb.amazonaws.com/
 
